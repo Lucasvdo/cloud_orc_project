@@ -1,6 +1,7 @@
 
 
 module "vpc" {
+  #VPC
   source = "terraform-aws-modules/vpc/aws"
 
   name = "catapimba-corps-vpc"
